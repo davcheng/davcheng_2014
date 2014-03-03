@@ -147,8 +147,8 @@ a:active {
 
 .home-profile-pic-img {
   float: left;
-  width: 25%;
-  margin-left: 37.5%;
+  width: 50%;
+  margin-left: 25%;
   margin-top: 10%;
 }
 
@@ -190,6 +190,13 @@ footer{
  *  Option to activate grid on small screens.
  *  Two-column layout for .grid-img. */
 @media (min-width: 20em) {
+
+  .home-profile-pic-img {
+    float: left;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
 
   .row {
     margin-left: -1.4%;
@@ -239,6 +246,13 @@ footer{
  *  Three-column layout for .grid-img. */
 @media (min-width: 30em) {
   /*  Show grid for small screens */
+  
+  .home-profile-pic-img {
+    float: left;
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 10%;
+  }
 
   .section-grid-img {
     width: 100%;
@@ -267,6 +281,14 @@ footer{
 /*  Full 6-column grid.
  *  Four-column layout for .grid-img. */
 @media (min-width: 40em) {
+
+  .home-profile-pic-img {
+    float: left;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 10%;
+  }
+
   .third-profile-pic-img {
     margin-top: 20%;
   }
