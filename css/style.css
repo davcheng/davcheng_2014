@@ -149,11 +149,31 @@ a:active {
  *  Option to activate grid on small screens.
  *  Two-column layout for .grid-img. */
 @media (min-width: 20em) {
-  .profile-pic-img {
+  .home-profile-pic-img {
     float: left;
     width: 25%;
     margin-left: 37.5%;
     margin-top: 10%;
+  }
+
+  .third-profile-pic-img {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .name{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .section-title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    padding-top: 2%;
   }
 
   .row {
@@ -281,7 +301,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #272727;
-  background: white;
+  background: #F3F3F7;
 }
 
 p {
