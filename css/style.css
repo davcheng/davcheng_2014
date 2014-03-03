@@ -171,6 +171,20 @@ a:active {
   padding-top: 2%;
 }
 
+.section-content{
+  padding-right: 6%;
+  padding-left: 1%;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+ 
+  font-size: 100%;
+  width: 100%;
+  text-align: right;
+  padding-right: 1%;
+}
 
 /*  Still mostly single-column.
  *  Option to activate grid on small screens.
