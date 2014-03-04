@@ -176,21 +176,22 @@ a:active {
   padding-left: 1%;
 }
 
-/*.projects-section-content{
+.project-img{
+  height: 50px;
+}
+
+.projects-section-content{
   padding-right: 6%;
   padding-left: 1%;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  background-color: white;
-}*/
+  font-size: 14px;
+}
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  font-size: 70%;
-  width: 100%;
+  font-size: 12px;
+  width: 99%;
   text-align: right;
-  padding-right: 1%;
 }
 
 /*  Still mostly single-column.
@@ -357,6 +358,18 @@ body {
   color: #272727;
   background: #F3F3F7;
   opacity: .1;
+
+
+}
+
+#background-img{
+    background: url("http://www.davcheng.com/img/mt-hood.jpg") no-repeat center transparent;
+    position: absolute;
+    top: 100px;
+    height: 30%;
+    width: 21%;
+    z-index: -1000;
+    opacity: .4;
 }
 
 p {
