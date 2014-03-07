@@ -197,14 +197,19 @@ can remove, this is for white rounded border
 
 footer{
   position: fixed;
-  width: 100%;
+  width: 99%;
   bottom: 0;
-  padding-right: 1%;
   font-size: 12px;
   display: block;
   text-align: right;
-  float: left;
+  float: right;
+  margin-right: 1%;
   background-color: #F3F3F7;
+}
+
+.home-page-footer{
+  background-color: transparent;
+
 }
 
 /*  Still mostly single-column.
